@@ -1,0 +1,61 @@
+.header {
+
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 22px;
+        margin-bottom: 72px;
+    }
+
+    &__logo {
+        width: 40px;
+        height: 40px;
+        background: url(/source/logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 6px;
+    }
+
+    &__block {
+        display: flex;
+    }
+
+    &__social-wrapper {
+        display: flex;
+        margin-right: 67px;
+    }
+
+    &__social {
+        cursor: pointer;
+        &:first-child {
+            width: 38px;
+            height: 38px;
+            background: url(/source/tele.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-right: 20px;
+        }
+        &:last-child {
+            margin-top: 2px;
+            width: 33px;
+            height: 33px;
+            background: url(/source/vk.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &__menu {
+        cursor: pointer;
+        margin-top: 11px;
+        width: 68px;
+        height: 15px;
+        background: url(/source/menui.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

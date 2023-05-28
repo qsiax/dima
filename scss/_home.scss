@@ -1,0 +1,70 @@
+.home {
+
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-bottom: 115px;
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 171px;
+        span {
+            color: $primary-color;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__block {
+        position: relative;
+    }
+
+    &__el {
+        position: absolute;
+        width: 178px;
+        height: 146px;
+        background: url(/source/decore-home.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &.el-01 {
+            top: 95px;
+            left: -119px;
+        }
+        &.el-02 {
+            right: -59px;
+            bottom: 121px;
+            transform: rotate(180deg);
+        }
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 85px;
+        line-height: 103px;
+        margin-bottom: 174px;
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 485px;
+        margin-left: 26px;
+    }
+
+    &__image {
+        width: 762.5px;
+        height: 739.5px;
+        background: url(/source/home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

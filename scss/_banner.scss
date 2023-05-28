@@ -1,0 +1,39 @@
+.banner {
+
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 131px;
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 180px;
+        line-height: 218px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 135px;
+        height: 135px;
+        background: url(/source/logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 37px;
+        margin-left: 46px;
+        margin-bottom: 7px;
+    }
+
+    &__decore {
+        margin-top: 107px;
+        width: 358px;
+        height: 11px;
+        background: url(/source/decore.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
